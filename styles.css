@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    margin: 50px;
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+}
+
+.returned{
+    color: green;
+}
+
+.not-returned{
+    color: red;
+}
+
+#bookEntry{
+    outline: 1px solid;
+    width: 500px;
+}
+
+#bookEntry div{
+    margin: 30px 0px;
+    color: white;
+    display: flex;
+}
+
+button{
+    background-color: white;
+    color: black;
+}
+
+td{
+    border-right: 2px solid white;
+}
+
+table,th{
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#bookEntry div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#bookEntry input,button{
+    flex-grow: 1;
+    padding: 5px;
+}
