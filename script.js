@@ -51,7 +51,7 @@ function insertDataInTable(object){
             bookArray[index].status = 'returned'
         }
         else{
-            statusData.textContent = 'not-returned'
+            statusData.textContent = 'not returned'
             statusData.classList.remove('returned')
             statusData.classList.add('not-returned')
             bookArray[index].status = 'not returned'
